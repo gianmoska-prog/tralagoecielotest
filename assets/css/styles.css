@@ -69,6 +69,8 @@
 html {
   background: var(--blue-950);
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 body {
   margin: 0;
@@ -2416,7 +2418,10 @@ body {
     margin-top: 44px;
   }
   .agri-video-frame {
-    min-height: 260px;
+    width: 100%;
+    max-width: 100%;
+    min-height: 0;
+    aspect-ratio: 16 / 9;
   }
 }
 
