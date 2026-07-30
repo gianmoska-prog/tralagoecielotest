@@ -3062,6 +3062,10 @@ body {
   }
   .page.is-active {
     animation: none;
+    opacity: 1;
+    transform: none;
+    clip-path: none;
+    will-change: auto;
   }
   .site-header {
     backdrop-filter: none;
